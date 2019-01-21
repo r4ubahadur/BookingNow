@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "608582551862",
+    "firebase_url": "https://bookingnow-8aa78.firebaseio.com",
+    "project_id": "bookingnow-8aa78",
+    "storage_bucket": "bookingnow-8aa78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608582551862:android:a9bed8cdf9cd2a94",
+        "android_client_info": {
+          "package_name": "com.smi.bookingnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608582551862-eiueuvl62adv7vnu4nh881u5s6r2323u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smi.bookingnow",
+            "certificate_hash": "276b97db625110a240551cc05abe08c6f2d3cd26"
+          }
+        },
+        {
+          "client_id": "608582551862-jq381a8ltjq9nc76to06e53g0ugh9pl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzqqbH2wVA4mjhs8XjCt3z5Ra1zIOwZtk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608582551862-jq381a8ltjq9nc76to06e53g0ugh9pl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

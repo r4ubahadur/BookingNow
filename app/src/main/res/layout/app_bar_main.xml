@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <include layout="@layout/layout_toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <View
+        android:background="@drawable/smi_logo_hazy"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/view_layout_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="2.0dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/view_layout_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/content_main" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

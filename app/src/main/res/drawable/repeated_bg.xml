@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<bitmap xmlns:android="http://schemas.android.com/apk/res/android" android:src="@drawable/stripes_bg" android:tileMode="repeat" />
+	</item>
+	<item android:left="-2.0dip" android:right="-2.0dip" android:bottom="-2.0dip">
+		<shape>
+			<solid android:color="@android:color/transparent" />
+			<stroke android:width="1.0dip" android:color="#fff3f3f3" />
+		</shape>
+	</item>
+	<item android:left="-2.0dip" android:top="-2.0dip" android:right="-2.0dip">
+		<shape>
+			<solid android:color="@android:color/transparent" />
+			<stroke android:width="2.0dip" android:color="#ffd9d9d9" />
+		</shape>
+	</item>
+</layer-list>
